@@ -1,0 +1,66 @@
+body {
+   background-color: #27283b;
+}
+
+header {
+    background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.nav {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+h1 {
+    color: white;
+}
+
+.nav-link.active {
+    color: white;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.background-pianokeys-image {
+    height: 250px;
+    width: 100%;
+    margin-bottom: 25px;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    background-image: url("photos/Piano-Keys-Background0.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.home {
+    background-color: white;
+}
+
+.display-4 {
+    margin-left: 5%;
+    font-family: sans-serif;
+}
+
+footer {
+    
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0;
+    background-color: black;
+    padding: 10px;
+    margin: 0px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+
+.fa {
+    padding: 0px;
+    font-size: 30px;
+    width: 50px;
+    text-decoration: none;
+    color: white;
+}
+
