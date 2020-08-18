@@ -41,7 +41,9 @@ h1 {
     margin-left: 5%;
     font-family: sans-serif;
 }
-
+.profile-pic {
+    float: left;
+}
 footer {
     
     position: -webkit-sticky;
