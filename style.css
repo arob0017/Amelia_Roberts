@@ -1,6 +1,7 @@
 body {
    background-color: #27283b;
 }
+/* navigation */
 
 header {
     background-color: black;
@@ -22,6 +23,8 @@ h1 {
     font-weight: normal;
 }
 
+/* piano keys */
+
 .background-pianokeys-image {
     height: 250px;
     width: 100%;
@@ -33,19 +36,37 @@ h1 {
     background-position: center;
 }
 
-.home {
-    background-color: white;
-}
+/* about me main section */
 
 .display-4 {
     margin-left: 5%;
     font-family: sans-serif;
 }
-.profile-pic {
-    float: left;
+
+h3 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 300;
+    font-family: sans-serif;
 }
+
+h5 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+p {
+    text-align: center;
+}
+
+
+
+
+
+
+
+/* footer */
 footer {
-    
     position: -webkit-sticky;
     position: sticky;
     bottom: 0;
