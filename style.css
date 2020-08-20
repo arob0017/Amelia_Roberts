@@ -1,8 +1,8 @@
 body {
    background-color: #27283b;
 }
-/* navigation */
 
+/* navigation */
 header {
     background-color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -13,6 +13,7 @@ header {
     margin-left: 0px;
     margin-right: 0px;
 }
+
 h1 {
     color: white;
 }
@@ -24,7 +25,6 @@ h1 {
 }
 
 /* piano keys */
-
 .background-pianokeys-image {
     height: 250px;
     width: 100%;
@@ -37,7 +37,6 @@ h1 {
 }
 
 /* about me main section */
-
 .display-4 {
     margin-left: 5%;
     font-family: sans-serif;
@@ -71,7 +70,6 @@ footer {
     text-align: center;
     color: white;
 }
-
 
 .fa {
     padding: 0px;
