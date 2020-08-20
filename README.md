@@ -13,3 +13,7 @@ In my Contact page, I have used a responsive Bootstrap 'form' so that viewers ca
 At the bottom of each of my pages I have a sticky footer that contains and links to my relevant Social-Media sites.
 
 https://arob0017.github.io/Responsive_Portfolio/
+
+<div align="center">
+    <img src="https://github.com/arob0017/Responsive_Portfolio/blob/master/photos/Code%20Refactor%20Screenshot.png" width="400px"</img> 
+</div>
