@@ -1,122 +1,237 @@
 <!DOCTYPE html>
 <html lang="en-us">
-    <head>
-        <meta charset="UTF-8">
-        <title>Portfolio</title>
-        
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="portfolio-style.css">
 
-    </head>
-    <body>
-        <header>
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="portfolio-style.css">
+
+</head>
+
+<body>
+    <header>
+
+        <nav class="navbar">
+            <h1>Amelia Roberts</h1>
+
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="./pdf/Resume2020.pdf" target="_blank">Resume</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <div class="background-pianokeys-image"></div>
+
+    <main>
+
+        <section class="box">
             <nav class="navbar">
-                <h1>Amelia Roberts</h1>
-
-                <ul class="nav justify-content-end">
+                <h2>My Portfolio</h2>
+                <ul class="nav justify-content-end" class="portfolionav">
                     <li class="nav-item">
-                        <a class="nav-link active" href="index.html">Home</a>
+                        <a class="nav-link" href="#webdevelopment">Webdevelopment</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="portfolio.html">Portfolio</a>
+                        <a class="nav-link" href="#performance">Performance</a>
                     </li>
                     <li class="nav-item">
-                        <a  class="nav-link active" href="contact.html">Contact</a>
+                        <a class="nav-link" href="#teaching">Teaching</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#photography">Photography</a>
                     </li>
                 </ul>
             </nav>
+        </section>
 
-        </header>
-        
-        <div class="background-pianokeys-image"></div>
 
-        <main>
 
-            <section class="box">
-                <nav class="navbar">
-                    <h2>My Portfolio</h2>
-                    <ul class="nav justify-content-end" class="portfolionav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#performance">Performance</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#teaching">Teaching</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#photography">Photography</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#webdevelopment">Webdevelopment</a>
-                        </li>
-                    </ul>
-                </nav>
-            </section>
 
-            <section id="performance" class="box">
-                <h3>Performance</h3>
-                <div class="row"> 
-                    <div class="col-md-4">   
-                        <div class="row" class="col-md-12">          
-                        <img class="col-md-12" src="photos/perf recite.JPG" alt="Performing my recital 2018">
+        <section id="webdevelopment" class="box">
+            <div class="row">
+                <h3 class="col-sm-4">Webdevelopment</h3>
+            </div>
+            <div class="row rowOne">
+                <div class="col-md-6">
+                    <div class="card largeCard">
+                        <img class="sweetSpot" src="./photos/Holiday-Sweetspot.gif" class="card-img-top"
+                            alt="Screenshot of Application">
+                        <div class="card-body">
+                            <h5 class="card-title">Holiday Sweetspot</h5>
+                            <p class="card-text">An application to help travellers decide on where to stay!
+                            </p>
+                            <a target="_blank" href=" https://skoggy.github.io/project/" class="btn btn-light">See
+                                Application</a>
+                            <a target="_blank" href="https://github.com/Skoggy/project" class="btn btn-light">Github
+                                Repo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card largeCard">
+                        <img class="spinMeal" src="./photos/Spin-That-Meal.gif" class="card-img-top"
+                            alt="Screenshot of Application">
+                        <div class="card-body">
+                            <h5 class="card-title">Spin That Meal</h5>
+                            <p class="card-text">
+                                Search for new recipes and create your own, chat to your friends and other members of
+                                the site, update your user details and have fun creating your own personalised
+                                Cook-Book!
+                            </p>
+                            <a target="_blank" href="https://murmuring-reaches-65423.herokuapp.com/"
+                                class="btn btn-light">See Application</a>
+                            <a target="_blank" href="https://github.com/chrisjmckeown/Spin-that-Meal"
+                                class="btn btn-light">Github Repo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row rowTwo">
+                <div class="col-md-3">
+                    <div class="card smallCard">
+                        <img src="./photos/Scooby-Shack.gif" class="card-img-top" alt="Screenshot of Application">
+                        <div class="card-body">
+                            <h5 class="card-title">Scooby Shack</h5>
+                            <p class="card-text">A restaurant app that lets users input the names of
+                                burgers they'd like to eat or have devoured!
+
+
+                            </p>
+                            <a target="_blank" href="https://scooby-shack.herokuapp.com/" class="btn btn-light">See
+                                Application</a>
+                            <a target="_blank" href="https://github.com/arob0017/Burger">Github
+                                Repo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card smallCard">
+                        <img src="./photos/Code-Quiz.gif" class="card-img-top" alt="Screenshot of Application">
+                        <div class="card-body">
+                            <h5 class="card-title">Code Quiz</h5>
+                            <p class="card-text">A quiz about javascript using mainly javascript. Includes a countdown
+                                and keeps track of score history.
+                            </p>
+                            <a target="_blank" href="https://arob0017.github.io/Code_Quiz/" class="btn btn-light">See
+                                Application</a>
+                            <a target="_blank" href="https://github.com/arob0017/Code_Quiz">Github Repo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card smallCard">
+                        <img src="./photos/Note-Taker.gif" class="card-img-top" alt="Screenshot of Application">
+                        <div class="card-body">
+                            <h5 class="card-title">Note Taker</h5>
+                            <p class="card-text">Successfully create, delete and save your notes and lists in a place on
+                                your browser no longer needing to worry about losing pieces of scrap papers in your bag.
+                            </p>
+                            <a target="_blank" href="https://notetaker133.herokuapp.com/" class="btn btn-light">See
+                                Application</a>
+                            <a target="_blank" href="https://github.com/arob0017/Express_Notetaker">Github Repo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card smallCard">
+                        <img src="./photos/Weather-Dashboard.gif" class="card-img-top" alt="Screenshot of Application">
+                        <div class="card-body">
+                            <h5 class="card-title">Weather Dashboard</h5>
+                            <p class="card-text">This is an application for Travelers that want to travel Australia! See
+                                any Australian city's forecast for the current day and following week!
+
+                            </p>
+                            <a target="_blank" href="https://arob0017.github.io/Weather_Dashboard/"
+                                class="btn btn-light">See Application</a>
+                            <a target="_blank" href="https://github.com/arob0017/Weather_Dashboard">Github Repo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+        <section id="performance" class="box">
+            <h3>Performance</h3>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="row" class="col-md-12">
+                        <img class="col-md-12" src="photos/perf-recite.JPG" alt="Performing my recital 2018">
                         <img class="col-md-12" src="photos/jam.JPG" alt="jam">
-                        </div>   
                     </div>
-                    <div class="col-md-4">   
-                        <div class="row">     
-                        <img class="col-md-12" src="photos/perf synths.JPG" alt="Prato performance with synths">
+                </div>
+                <div class="col-md-4">
+                    <div class="row">
+                        <img class="col-md-12" src="photos/perf-synths.JPG" alt="Prato performance with synths">
                         <img class="col-md-12" src="photos/piano.jpg" alt="piano">
-                        </div>   
                     </div>
-                    <div class="col-md-4" class="center">
-                        <img class="col-md-12" src="photos/musicme 2.jpeg" alt="photoshoot img">
-                    </div> 
                 </div>
-            </section>
+                <div class="col-md-4" class="center">
+                    <img class="col-md-12" src="photos/musicme2.jpeg" alt="photoshoot img">
+                </div>
+            </div>
+        </section>
 
-            <section id="teaching" class="box">
-                <h3>Teaching</h3>
-                <div class="row">
-                    <img class="col-md-3" src="photos/books.jpg" alt="books">
-                    <img class="col-md-3" src="photos/books.jpg" alt="books">
-                    <img class="col-md-3" src="photos/books.jpg" alt="books">
-                    <img class="col-md-3" src="photos/books.jpg" alt="books">
-                </div>
-            </section>
-                
-            <section id="photography" class="box">
-                <h3>Photography</h3>
-                <div class="row">
-                    <img class="col-md-6" src="photos/prato sunset 1.jpeg" alt="Prato, Italy Sunset">
-                    <img class="col-md-6" src="photos/lake.jpg" alt="Prato, Italy Lake">
-                </div>
-                <div class="row">
-                    <img class="col-md-6" src="photos/lamp-post.jpeg" alt="Slazburg lamp-post">
-                    <img class="col-md-6" src="photos/prato sunset 2.jpeg" alt="Prato, Tree Sunset">
-                </div>
-            </section>
-                
-            <section id="webdevelopment" class="box">
-                <div class="row">
-                    <h3 class="col-sm-4">Webdevelopment</h3>
-                </div>
-                <div class="row">
-                    <h4 class="col-sm-4">- Coming Soon...</h4> 
-                </div>
-            </section>
-            
-        </main>
-            
-        <footer>
-            <a href="https://soundcloud.com/user-736183062" class="fa fa-soundcloud"></a>
-            <a href="https://www.instagram.com/ameliarob_music/" class="fa fa-instagram"></a>
-            <a href="https://github.com/arob0017" class="fa fa-github"></a>
-        </footer>
-  
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    </body>
+        <section id="teaching" class="box">
+            <h3>Teaching</h3>
+            <div class="row">
+                <img class="col-md-3" src="photos/books.jpg" alt="books">
+                <img class="col-md-3" src="photos/books.jpg" alt="books">
+                <img class="col-md-3" src="photos/books.jpg" alt="books">
+                <img class="col-md-3" src="photos/books.jpg" alt="books">
+            </div>
+        </section>
+
+        <section id="photography" class="box">
+            <h3>Photography</h3>
+            <div class="row">
+                <img class="col-md-6" src="photos/prato-sunset1.jpeg" alt="Prato, Italy Sunset">
+                <img class="col-md-6" src="photos/lake.jpg" alt="Prato, Italy Lake">
+            </div>
+            <div class="row">
+                <img class="col-md-6" src="photos/lamp-post.jpeg" alt="Slazburg lamp-post">
+                <img class="col-md-6" src="photos/prato-sunset2.jpeg" alt="Prato, Tree Sunset">
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer>
+        <a href="https://soundcloud.com/user-736183062" class="fa fa-soundcloud"></a>
+        <a href="https://www.instagram.com/ameliarob_music/" class="fa fa-instagram"></a>
+        <a href="https://github.com/arob0017" class="fa fa-github"></a>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>

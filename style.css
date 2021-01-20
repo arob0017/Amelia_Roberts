@@ -79,3 +79,13 @@ footer {
     color: white;
   }
 
+.btn-dark {
+    background-color: #212529;
+    border-color: #212529;
+    justify-content: center;
+}
+.contactUs {
+    text-align: center;
+    align-items: center;
+    display: flex;
+}

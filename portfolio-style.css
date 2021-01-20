@@ -25,7 +25,10 @@
     font-weight: bold;
     font-size: 18px;
 }
-
+.btn-light {
+    color: white;
+    background-color: #27283b;
+}
 /* main content */
 main {
     font-family: sans-serif;
@@ -43,6 +46,21 @@ h3, h4 {
 img {
     margin: 0px; 
     margin-bottom: 15px;
+}
+.card {
+    margin-bottom: 50px;
+}
+ 
+.smallCard{
+    min-width: 200px;
+    min-height: 430px;
+    
+}
+.largeCard {
+    min-height: 570px
+}
+.sweetSpot, .spinMeal {
+    max-height: 346px;
 }
 
 @media only screen and (max-width: 992px) {
