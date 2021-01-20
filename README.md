@@ -15,12 +15,12 @@ At the bottom of each of my pages I have a sticky footer that contains and links
  https://arob0017.github.io/Amelia_Roberts/
  
 <div align="centre">
-    <img src="https://github.com/arob0017/Responsive_Portfolio/blob/master/photos/Responsive%20Port%20Home%20Screenshot.png" width="400px"</img> 
+    <img src="https://github.com/arob0017/Responsive_Portfolio/blob/master/photos/Responsive-Port-Home-Screenshot.png" width="400px"</img> 
 </div>
 <div align="centre">
-    <img src="https://github.com/arob0017/Responsive_Portfolio/blob/master/photos/Responsive%20Port%20Portfolio%20screenshot.png" width="400px"</img> 
+    <img src="https://github.com/arob0017/Responsive_Portfolio/blob/master/photos/Responsive-Port-Portfolio-screenshot.png" width="400px"</img> 
 </div>
 <div align="centre">
-    <img src="https://github.com/arob0017/Responsive_Portfolio/blob/master/photos/Responsive%20Portfolio%20Contact%20screenshot.png" width="400px"</img> 
+    <img src="https://github.com/arob0017/Responsive_Portfolio/blob/master/photos/Responsive-Portfolio-Contact-screenshot.png" width="400px"</img> 
 </div>
 
