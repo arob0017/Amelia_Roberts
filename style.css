@@ -89,3 +89,7 @@ footer {
     align-items: center;
     display: flex;
 }
+.btn-light {
+    color: white;
+    background-color: #27283b;
+}
